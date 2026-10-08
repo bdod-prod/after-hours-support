@@ -6,4 +6,12 @@ Verified native section links, a visible keyboard-focus outline, the skip link m
 
 Source checks confirm the exact same 19 outbound anchor destinations as Website Chatbot Workshop, valid internal anchors and files, one H1 per HTML page, title/description/author metadata, no visible BLURSOR text and no JavaScript. Fonts and stylesheet load locally. The Markdown download is for editing; no printable worksheet is advertised.
 
-Evidence: C:/Work/reports/after-hours-support-2026-10-08/. Production hosting, Caddy routing, origin metadata, sitemap and anonymous crawler checks remain launch tasks. The Railway CLI binary is blocked by Windows Application Control; use the GitHub deployment route without changing that policy.
+Evidence: C:/Work/reports/after-hours-support-2026-10-08/. The Railway CLI binary is blocked by Windows Application Control; the GitHub deployment route was used without changing that policy.
+
+## Live review
+
+Published at https://after-hours-support-production.up.railway.app/. Actual desktop, 390px and 320px browser checks pass, including section navigation and the real Markdown download. Download bytes match source and live browser logs have no warnings/errors. The live caption and resource sections remain readable on mobile.
+
+Anonymous HTTP checks confirm all eight public files match source exactly. Local text line endings were aligned with Git's LF source to make that comparison exact. Canonical/og:url and the one-page absolute sitemap use the confirmed origin. robots.txt permits crawling; the homepage has no noindex meta or response header. Both top-level and nested missing routes return HTTP 404 and the exact styled error page. /health returns 200 and “ok”. This verifies the real Caddy routing. Indexing and experiment outcomes remain unmeasured.
+
+Reviewed publication commit: 6a8684a. Railway deployment 6e96f1e6-41da-4f13-9723-6cc6f1568d46 reported ACTIVE / Deployment successful, with the health check and idle-sleep settings applied. Later documentation-only commits do not change the reviewed public files.
