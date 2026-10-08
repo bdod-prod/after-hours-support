@@ -10,7 +10,9 @@ Open http://127.0.0.1:4195/. There is no framework, build step, JavaScript, form
 
 ## Publication
 
-Proposed host: Railway. Dockerfile serves public/ with Caddy; PORT comes from the hosting environment, defaulting to 8080. /health responds with 200. Missing files use 404.html with the original error status. No SPA fallback is configured.
+Approved host: Railway. Dockerfile serves public/ with Caddy; PORT comes from the hosting environment, defaulting to 8080. /health responds with 200. Missing files use 404.html with the original error status. No SPA fallback is configured.
+
+Source repository: https://github.com/bdod-prod/after-hours-support (main). Local review passed; see QA.md. The CLI executable is blocked by Windows Application Control; use Railway's GitHub deployment route after account sign-in. No Railway service exists yet.
 
 Production is not published. Canonical URL, og:url, an absolute sitemap and its robots reference await Railway's actual assigned hostname. Do not invent the origin or buy a plan automatically. See ../NEXT-PUBLICATIONS.md for the approved subject and reduced scope.
 

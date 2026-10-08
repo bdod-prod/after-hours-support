@@ -8,10 +8,12 @@ Architecture: one static HTML page, CSS, a local licensed heading font, and an e
 
 Design: forest green #143e36, cream #f4f1e5, pale rules #bfcec0, system sans-serif body and local DM Serif Display headings. A compact centred title leads into a coverage table, followed by static fictional replies, shift responsibilities, download and compact resources. No artwork or interactive application.
 
-- [ ] Create index.html, assets/styles.css, resources/coverage-plan.md, 404.html, robots.txt and licensed font assets.
-- [ ] Validate the exact outbound set, metadata, internal anchors/downloads and absence of visible prohibited branding or JavaScript.
-- [ ] Render at desktop, 390px and 320px; check navigation, keyboard focus and actual download.
+- [x] Create index.html, assets/styles.css, resources/coverage-plan.md, 404.html, robots.txt and licensed font assets.
+- [x] Validate the exact outbound set, metadata, internal anchors/downloads and absence of visible prohibited branding or JavaScript.
+- [x] Render at desktop, 390px and 320px; check navigation, keyboard focus and actual download.
 - [ ] Verify Railway access/cost, create only this project's service, obtain its actual hostname, add canonical/og:url/sitemap and publish if no unauthorised financial or access commitment is required.
 - [ ] Verify anonymous live routing, files, crawler rules and rendered content; update deployment/link records and package.
 
 Implementation decisions: the user approved reduced effort and the existing design direction. No image generation, framework, elaborate design process or implementation-mirroring unit tests are warranted. Source/routing checks and actual browser QA provide the useful verification. Work stays in this new folder; the existing sites are untouched.
+
+Launch checkpoint: Alex authorised the official Railway App on 8 October. GitHub keeps its Authorize control disabled in the Codex browser. The normal CLI executable is blocked by Windows Application Control, which remains unchanged. Reviewed source is at https://github.com/bdod-prod/after-hours-support; use the dashboard/GitHub deployment route after sign-in. No plan has been bought or service created.
