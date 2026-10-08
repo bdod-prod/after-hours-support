@@ -1,0 +1,5 @@
+.git
+*.zip
+README.md
+PLAN.md
+*-checks.json

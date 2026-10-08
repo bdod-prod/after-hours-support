@@ -1,0 +1,4 @@
+*.zip
+.railway/
+*-checks.json
+launch-state.json
